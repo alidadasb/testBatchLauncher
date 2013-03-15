@@ -1,0 +1,33 @@
+<plugin name='batch-launcher' version='0.5.6' grailsVersion='2.1.2 &gt; *'>
+  <author>Daniel Henrique Alves Lima</author>
+  <authorEmail>email_daniel_h@yahoo.com.br</authorEmail>
+  <title>Grails Batch Launcher Plugin</title>
+  <description>\
+Plugin to load and run batch (non-web/webless) Grails application.
+</description>
+  <documentation>http://grails.org/plugin/batch-launcher</documentation>
+  <type>BatchLauncherGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies />
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='cache' version='1.0.1' />
+    </compile>
+    <runtime>
+      <plugin group='org.grails.plugins' name='jquery' version='1.8.0' />
+      <plugin group='org.grails.plugins' name='hibernate' version='2.1.2' />
+      <plugin group='org.grails.plugins' name='database-migration' version='1.2.1' />
+      <plugin group='org.grails.plugins' name='resources' version='1.1.6' />
+    </runtime>
+    <build>
+      <plugin group='org.grails.plugins' name='tomcat' version='2.1.2' />
+    </build>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

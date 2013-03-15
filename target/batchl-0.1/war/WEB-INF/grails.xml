@@ -1,0 +1,34 @@
+<grails>
+  <resources>
+    <resource>grails.plugin.cache.GrailsCacheAdminService</resource>
+    <resource>Config</resource>
+    <resource>DefaultCacheConfig</resource>
+    <resource>JQueryResourceTagLib</resource>
+    <resource>org.grails.plugin.resource.ResourceTagLib</resource>
+    <resource>DataSource</resource>
+    <resource>JQueryService</resource>
+    <resource>DbdocUrlMappings</resource>
+    <resource>org.grails.plugin.resource.CSSRewriterResourceMapper</resource>
+    <resource>grails.plugin.databasemigration.DbdocController</resource>
+    <resource>JQueryConfig</resource>
+    <resource>JQueryPluginResources</resource>
+    <resource>org.grails.plugin.resource.BundleResourceMapper</resource>
+    <resource>grails.plugin.cache.CacheTagLib</resource>
+    <resource>JQueryTagLib</resource>
+    <resource>UrlMappings</resource>
+    <resource>BuildConfig</resource>
+    <resource>ResourcesBootStrap</resource>
+    <resource>org.grails.plugin.resource.CSSPreprocessorResourceMapper</resource>
+    <resource>ApplicationResources</resource>
+    <resource>BootStrap</resource>
+    <resource>resources</resource>
+  </resources>
+  <plugins>
+    <plugin>JqueryGrailsPlugin</plugin>
+    <plugin>BatchLauncherGrailsPlugin</plugin>
+    <plugin>DatabaseMigrationGrailsPlugin</plugin>
+    <plugin>HibernateGrailsPlugin</plugin>
+    <plugin>CacheGrailsPlugin</plugin>
+    <plugin>ResourcesGrailsPlugin</plugin>
+  </plugins>
+</grails>
